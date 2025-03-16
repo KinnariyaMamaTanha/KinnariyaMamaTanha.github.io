@@ -2,166 +2,234 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://kinnariyamamatanha.github.io/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/academy/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/about/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/posts/GRAM/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/posts/LLM/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/posts/OneLLM/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/posts/final-week-review/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/posts/git-commit/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/posts/learn-tensorboard/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/blogs/posts/my-Ubuntu-24.04/</loc>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/posts/nccl-collective-operations/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/posts/project-thinking-and-stream-planing/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/blogs/posts/%E8%BF%B7%E8%8C%AB%E2%80%94%E2%80%94%E7%BB%99%E5%90%8E%E6%9D%A5%E4%BA%BA%E7%9A%84%E4%B8%80%E4%B8%AA%E5%A4%B1%E8%B4%A5%E6%A0%B7%E4%BE%8B%E5%8F%82%E8%80%83/</loc>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/links/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/6.s081/1-intro/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/RL/Actor-Critic/</loc>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/RL/Bellman-Optimal-Equation/</loc>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/RL/Dyna-Q/</loc>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/RL/Monte-Carlo-Learning/</loc>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/RL/Policy-Function-Approximation/</loc>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/RL/Stochastic-Approximation/</loc>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/RL/Temporal-Difference-Learning/</loc>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/RL/Value-Function-Approximation/</loc>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/RL/Value-or-Policy-Iteration/</loc>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/cs61c/1-intro/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/cs61c/2-c-intro/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/cs61c/3-floating-point/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/cs61c/4-RISC-V/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/cs61c/5-CALL/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/cs61c/6-processor-design/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/cs61c/7-pipeline/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/cs61c/8-cache/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/cs61c/9-parallelism/</loc>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/cs61c/deepseek-R-format/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/cs61c/deepseek-relocation-table-and-symbol-table/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/cse234/lec2/</loc>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/stochastic-progress/Lecture0-Review-of-Probability/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/notes/stochastic-progress/Lecture3-Concentration-Inequalities/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/stochastic-progress/Lecture4-Markov-Chains-with-Finite-States/</loc>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/stochastic-progress/Lecture5-Coupling-Fundamental-Theorem-of-Markov-Chains/</loc>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/notes/stochastic-progress/Lecture6-Mixing-Time-of-Markov-Chains/</loc>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2024/2024-summary/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2024/aiTour-first-year/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2024/summary-2/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2024/summary-3/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2024/summary-4/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2024/summary-5/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2024/summary-6/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2024/summary-7/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2024/summary-8/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2025/semester-plan/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2025/summary-1/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/summary/2025/summary-2/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/summary/2025/summary-3/</loc>
+         <lastmod>2025-03-16</lastmod>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/tags/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-16</lastmod>
     </url>
 </urlset>
