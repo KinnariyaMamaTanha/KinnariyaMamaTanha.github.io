@@ -8,7 +8,7 @@ math:
 
 ## 校内课程
 
-对于课内的课程，应对策略可见 [期末周复盘](../../blogs/posts/final-week-review.md)。
+对于课内的课程，应对策略可见 [期末周复盘](../../../blog/final-week-review.md)。
 
 培养计划内，大二下学期课程有：
 

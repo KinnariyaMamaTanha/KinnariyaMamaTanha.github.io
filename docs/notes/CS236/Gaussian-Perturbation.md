@@ -5,9 +5,9 @@ date created: 星期二, 九月 24日 2024, 9:52:15 晚上
 date modified: 星期三, 九月 25日 2024, 11:39:08 中午
 ---
 
-> 在 [score-based-model](Score-based-Model.md#Pitfalls) 中存在的一些问题可以用 Gaussian Perturbation 来解决
+> 在 [score-based-model](Score-based-Model.md) 中存在的一些问题可以用 Gaussian Perturbation 来解决
 
-通过对真实数据添加适当的噪声（像 [Denoising Score Matching](Score-based-Model.md#Denoising%20Score%20Matching) 中一样），可以提高模型准确率。但是不知道多少噪声比较合适：太少则数据质量高但预测 score function 质量底，太多则相反
+通过对真实数据添加适当的噪声（像 [Denoising Score Matching](Score-based-Model.md) 中一样），可以提高模型准确率。但是不知道多少噪声比较合适：太少则数据质量高但预测 score function 质量底，太多则相反
 
 ![](https://cdn.jsdelivr.net/gh/KinnariyaMamaTanha/Images@images/Screenshot%20from%202024-09-24%2022-06-11.png)
 

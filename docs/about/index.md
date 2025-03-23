@@ -4,6 +4,12 @@ icon: /fontawesome/solid/face-smile-wink
 
 # About 🥳
 
+!!! note ""
+    <div align="center" style="font-size:32px;font-weight:bold">
+        『 किन्नरिय मम तण्हा 』
+    </div>
+    <br><br>
+
 === "中文"
 
     你好！我是 Kinnari，上海交通大学 23 级人工智能专业的本科生。很高兴能在互联网上与你相遇🥰。

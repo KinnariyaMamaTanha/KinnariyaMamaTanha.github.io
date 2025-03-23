@@ -13,7 +13,7 @@ date modified: 星期三, 九月 25日 2024, 3:53:18 下午
 
 - [Autoregressive-Models](Autoregressive-Models.md)
 - [Flow-Models](Flow-Models.md)
-- [Variational Autoencoders](Latent-Variable-Models.md#Variational%20Autoencoders)
+- [Variational Autoencoders](Latent-Variable-Models.md)
 - [Energy-Based-Model-(EBM)](Energy-Based-Model-(EBM).md)
 
 ### Sampling Progress

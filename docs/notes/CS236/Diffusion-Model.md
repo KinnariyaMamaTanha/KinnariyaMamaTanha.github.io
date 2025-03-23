@@ -32,9 +32,9 @@ q(x_{t}|x_{0})&=\mathcal{N}(x_{t};\sqrt{ \overline{\alpha}_{t} }x_{0},(1-\overli
 \end{align}
 $$
 
-这和 [Denoising Score Matching](Score-based-Model.md#Denoising%20Score%20Matching) 中添加噪声是一致的，并且只要事先给定 $\{ \beta_{i} \}$，就能方便地算出任意时刻 $t$ 添加噪声后的分布 $q(x_{t}|x_{0})$，和 [Gaussian-Perturbation](Gaussian-Perturbation.md) 中指定若干种不同程度的噪声又很相像
+这和 [Denoising Score Matching](Score-based-Model.md) 中添加噪声是一致的，并且只要事先给定 $\{ \beta_{i} \}$，就能方便地算出任意时刻 $t$ 添加噪声后的分布 $q(x_{t}|x_{0})$，和 [Gaussian-Perturbation](Gaussian-Perturbation.md) 中指定若干种不同程度的噪声又很相像
 
-然后进行 sampling，希望求得 $q(x_{t-1}|x_{t})$，这样就能从 $q_{T}(x_{T})$ 开始逆向取样了。不过并不好求，考虑使用变分近似（variational approximation，在 [Variational Autoencoders](Latent-Variable-Models.md#Variational%20Autoencoders) 中曾经使用过），引入以 $\theta$ 为参数的函数
+然后进行 sampling，希望求得 $q(x_{t-1}|x_{t})$，这样就能从 $q_{T}(x_{T})$ 开始逆向取样了。不过并不好求，考虑使用变分近似（variational approximation，在 [Variational Autoencoders](Latent-Variable-Models.md) 中曾经使用过），引入以 $\theta$ 为参数的函数
 
 $$
 p_{\theta}(x_{t-1}|x_{t})=\mathcal{N}(x_{t-1};\mu_{\theta}(x_{t},t),\sigma_{t}^{2}I)
@@ -44,7 +44,7 @@ $$
 
 ![](https://cdn.jsdelivr.net/gh/KinnariyaMamaTanha/Images@images/20240925085813.png)
 
-实际上这是 [VAE](Latent-Variable-Models.md#Variational%20Autoencoders) 的 hierarchical 版本：$x_{1},\dots,x_{T}$ 都是 latent variable，前后依赖，对应的 [ELBO](Latent-Variable-Models.md#Evidence%20Lower%20Bound) 为
+实际上这是 [VAE](Latent-Variable-Models.md) 的 hierarchical 版本：$x_{1},\dots,x_{T}$ 都是 latent variable，前后依赖，对应的 [ELBO](Latent-Variable-Models.md) 为
 
 $$
 \mathbf{E}_{q(x_{1:T}|x_{0})}\left[ \log \left( \frac{p_{\theta }(x_{0},x_{1:T})}{q(x_{1:T}|x_{0})} \right) \right]
@@ -76,13 +76,13 @@ $$
 L = \mathbf{E}_{x_{0}\sim q(x_{0}),t \sim \mathcal{U}(1,T), \epsilon \sim \mathcal{N}(0,I)}[\lambda_{t}\lVert \epsilon - \epsilon_{\theta}(\sqrt{ \overline{\alpha}_{t} }x_{0}+\sqrt{ 1-\overline{\alpha}_{t} }\epsilon, t) \rVert ^{2}]
 $$
 
-这个式子和 [Gaussian-Perturbation](Gaussian-Perturbation.md#^e7145d) 中的 loss 函数本质上相同（score function 都是在尝试 denoising，此处的 $\epsilon_{\theta}(\cdot,t)$ 等价于那里的 $\sigma_{i}s_{\theta}(\cdot,\sigma_{i})$），意味着最小化 ELBO loss 和最小化 denoising score matching 是等价的。这里
+这个式子和 [Gaussian-Perturbation](Gaussian-Perturbation.md) 中的 loss 函数本质上相同（score function 都是在尝试 denoising，此处的 $\epsilon_{\theta}(\cdot,t)$ 等价于那里的 $\sigma_{i}s_{\theta}(\cdot,\sigma_{i})$），意味着最小化 ELBO loss 和最小化 denoising score matching 是等价的。这里
 
 $$
 \mu_{\theta}(x_{t},t)=\frac{1}{\sqrt{ 1-\beta_{t} }}\left( x_{t}- \frac{\beta_{t}}{\sqrt{ 1-\overline{\alpha}_{t} }}\epsilon_{\theta}(x_{t},t) \right)
 $$
 
-中的 $\epsilon_{\theta}$ 用于模拟“扰动”，也就是 [Denoising Score Matching](Score-based-Model.md#Denoising%20Score%20Matching) 中的 noise，[diffusion process](../stochastic-progress/Lecture19-Informal-Definition-of-Diffusion-and-Examples.md) 中的步长；即 $x_{t-1}$ 的均值应该取 $x_{t}$ 减去 noise 之后的结果（同时还应该配以合适的系数 scaling，可以从数学上推导出来）
+中的 $\epsilon_{\theta}$ 用于模拟“扰动”，也就是 [Denoising Score Matching](Score-based-Model.md) 中的 noise，[diffusion process](../stochastic-progress/Lecture19-Informal-Definition-of-Diffusion-and-Examples.md) 中的步长；即 $x_{t-1}$ 的均值应该取 $x_{t}$ 减去 noise 之后的结果（同时还应该配以合适的系数 scaling，可以从数学上推导出来）
 
 ![](https://cdn.jsdelivr.net/gh/KinnariyaMamaTanha/Images@images/20240925100250.png)
 

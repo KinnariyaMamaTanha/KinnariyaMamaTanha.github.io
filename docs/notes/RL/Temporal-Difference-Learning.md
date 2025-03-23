@@ -43,6 +43,8 @@ TD/Sarsa learning 和 MC learning 的对比：
 
 ![](https://cdn.jsdelivr.net/gh/KinnariyaMamaTanha/Images@main/202409100947032.png)
 
+需要记住的是，TD 是低方差、高误差的，而 MC 是高方差、低误差的，不过可以平衡两者得到 [GAE](GAE.md)
+
 ## TD Learning of Action Values
 
 ### Sarsa

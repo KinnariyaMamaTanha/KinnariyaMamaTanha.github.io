@@ -25,8 +25,6 @@ math: true
 > 
 > 那么称该元组为一个 probability space。
 
-- $\sigma$ 代数对求交是封闭的，对求并则不一定
-
 ## Random Variable
 
 - 随机变量是一个**可测函数**（measurable function）$\mathbf{X}: \Omega \rightarrow \mathbb{R}$。这里可测函数满足，对任意 $A\in \mathcal{B}(\mathbb{R})$，有 $\mathbf{X}^{-1}(A) \in \mathcal{F}$（这里 $\mathcal{B}(\mathbb{R})$ 指 $\mathbb{R}$ 上的所有 Borel set[^1] 的集合）

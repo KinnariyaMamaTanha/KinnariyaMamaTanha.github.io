@@ -27,10 +27,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r requirements.txt
-      - name: Install modified mkdocs-statistics-plugin
-        run: |
-          git clone https://github.com/KinnariyaMamaTanha/mkdocs-statistics-plugin
-          pip install ./mkdocs-statistics-plugin
-          rm -rf mkdocs-statistics-plugin
       - run: pip cache purge
       - run: mkdocs gh-deploy --force
