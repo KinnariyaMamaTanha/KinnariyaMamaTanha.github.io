@@ -157,6 +157,20 @@ body[data-md-prefers-color-scheme=true] .md-icon .unknown-mode {
     border: none;
 }
 
+[data-md-color-scheme="default"] .md-typeset .admonition,
+.md-typeset details:not([open]) {
+    box-shadow: var(--md-shadow-z2);
+    border: none;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition,
+.md-typeset summary:not(.focus-visible) {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    box-shadow: var(--md-shadow-z2);
+    border: none;
+}
+
 .md-tabs__item:hover {
   background-color: rgba(68, 138, 255, 0.1);
   /* transform: scale(1.1) !important; */
