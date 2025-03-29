@@ -49,8 +49,6 @@ I am a second-year undergraduate student majoring in Artificial Intelligence at 
 
     [11/2024] :party_popper: I won the 2024 Shanghai Scholarship (**top 0.2%** in Shanghai)
 
-    [09/2024] I became an intern in [RHOS](https://mvig-rhos.com/), advised by Assistant Prof. [Yonglu Li](https://dirtyharrylyl.github.io/) and Prof. [Cewu Lu](https://www.mvig.org/).
-
     [08/2024] I participated in the preparation of the [tutorial report 《基于离散编码的语音合成》](https://www.ncmmsc.org.cn/jcbg/) of [NCMMSC 2024](https://www.ncmmsc.org.cn/).
 
     [03/2024] :party_popper: I won **the first prize** of [the 15th Chinese Mathematics Competitions](img/15th_national_math_competition.png) (CMC) and **the first prize** of [the 15th Shanghai Mathematics Competitions](img/15th_shanghai_math_competition.png)!
@@ -98,12 +96,6 @@ Sept. 2023 -- Present
 **IPADS, SJTU**![Image title](img/ipads.png){ align=right style="height:5em; border-radius: 0.5em;"}
 
 Dec. 2024 - Present
-
-Research Intern
-
-**RHOS, SJTU & Qing Yuan Research Institute**![Image title](img/rhos.png){ align=right style="height:5em; border-radius: 0.5em;"}
-
-Sept. 2024 - Jan. 2025
 
 Research Intern
 
