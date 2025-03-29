@@ -103,7 +103,7 @@ Research Intern
 
 **RHOS, SJTU & Qing Yuan Research Institute**![Image title](img/rhos.png){ align=right style="height:5em; border-radius: 0.5em;"}
 
-Sept. 2024 - Present
+Sept. 2024 - Jan. 2025
 
 Research Intern
 
