@@ -18,7 +18,7 @@ Welcome to Kinnari's Site! 🎉
 </h1>
 
 <span style="display: block; text-align: center; font-size: 18px;">
-[:octicons-link-16: My frineds!](./links/index.md) / [:octicons-info-16: About Me](./about/index.md) / [:academicons-google-scholar: Academic Page](./academy.md) / [:material-chart-line: Statistics](javascript:toggle_statistics();)
+[:octicons-link-16: My friends!](./links/index.md) / [:octicons-info-16: About Me](./about/index.md) / [:academicons-google-scholar: Academic Page](./academy.md) / [:material-chart-line: Statistics](javascript:toggle_statistics();)
 </span>
 
 <div id="statistics" markdown="1" class="card" style="width: 27em; border-color: transparent; opacity: 0; margin-left: auto; margin-right: 0; font-size: 110%">

@@ -22,9 +22,9 @@ nostatistics: true
 
 ## Bio
 
-I am a second-year undergraduate student majoring in Artificial Intelligence at the [SEIEE](https://english.seiee.sjtu.edu.cn/) of [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/). Currently, I am an intern at [IPADS](https://ipads.se.sjtu.edu.cn/), under the guidance of Prof. [Xingda Wei](https://ipads.se.sjtu.edu.cn/pub/members/xingda_wei). You could find my previous experience [here](#experience). In addition, I am also an active participant in [Zhiyuan Honors Program](https://en.zhiyuan.sjtu.edu.cn/), which fosters academic excellence and innovation.
+I am a second-year undergraduate student majoring in Artificial Intelligence at the [SEIEE](https://english.seiee.sjtu.edu.cn/) of [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/). You could find my previous experience [here](#experience). In addition, I am also an active participant in [Zhiyuan Honors Program](https://en.zhiyuan.sjtu.edu.cn/), which fosters academic excellence and innovation.
 
-> [!INFO] I am actively seeking internships in the field of machine learning systems and optimization. Please feel free to reach out to me if you have any opportunities available! 🥰🥰🥰
+> [!INFO] I am actively seeking internships in the field of LLM and MLSys. Please feel free to reach out to me if you have any opportunities available! 🥰🥰🥰
 
 
 ---
@@ -95,7 +95,7 @@ Sept. 2023 -- Present
 
 **IPADS, SJTU**![Image title](img/ipads.png){ align=right style="height:5em; border-radius: 0.5em;"}
 
-Dec. 2024 - Present
+Dec. 2024 - Apr. 2025
 
 Research Intern
 
@@ -118,7 +118,7 @@ An open-source GitHub page built for reference in self-learning of artificial in
 
 ## Media Exposures
 
-I write articles and share my thinkings on [Zhihu](https://www.zhihu.com/people/Kinnariya) regularly and have 200+ followers so far!
+I write articles and share my thinkings on [Zhihu](https://www.zhihu.com/people/Kinnariya) regularly and have 600+ followers so far!
 
 ## Honors
 
