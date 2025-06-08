@@ -7,7 +7,7 @@ icon: /octicons/link-24
 # Links 🥰
 
 !!! abstract
-    My friends!
+    这个页面已经不再更新，新的友链见[这里](https://kinnari-blog.vercel.app/links/)
 
 <div class="flink-list">
 
