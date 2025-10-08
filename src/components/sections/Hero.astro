@@ -1,0 +1,174 @@
+---
+import { basics } from '@cv'
+import Section from '@/components/Section.astro'
+import { Icon } from 'astro-icon/components'
+import { Image } from 'astro:assets'
+
+const { name, label, image, location, profiles, email } = basics
+const { city, region, address } = location
+---
+
+<Section>
+  <div class='flex flex-col-reverse gap-8'>
+    <div class='info'>
+      <h1>{name}</h1>
+      <h2>{label}</h2>
+      <div class='flex items-center gap-2 pt-2 text-sm text-skin-muted'>
+        <Icon class='print:hidden' name='mdi:world' width={20} height={20} />
+        {address}, {city}, {region}
+      </div>
+      <footer class='print'>
+        {email}
+      </footer>
+      <footer class='print:hidden'>
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Send email to me`}
+              target='_blank'
+              rel='noopener noreferrer'>
+              <Icon
+                class='print:hidden'
+                name='mdi:email'
+                width={20}
+                height={20}
+              />
+            </a>
+          )
+        }
+        {
+          profiles.map(({ network, url, icon }) => {
+            return (
+              <a
+                href={url}
+                title={`Visit ${name} profile on ${network}`}
+                target='_blank'
+                class='print:hidden'
+                rel='noopener noreferrer'>
+                <Icon class='print:hidden' name={icon} width={20} height={20} />
+              </a>
+            )
+          })
+        }
+        <div
+          class='footer-button group flex h-8 w-9 cursor-pointer items-center justify-center rounded-md text-skin-hue hover:bg-skin-button-accent hover:text-skin-inverted max-sm:hidden print:hidden [&>span]:hover:text-skin-inverted'>
+          <Icon name='ri:command-fill' class='h-5 w-5' />
+        </div>
+      </footer>
+    </div>
+    <figure class='relative w-fit print:hidden'>
+      <Image class='shadow-skin-hues shadow-lg' height={600} width={600} src={image} alt={name} />
+      <div class='pointer-events-none absolute -inset-2'>
+        <div
+          class='absolute -inset-y-8 right-0 w-px bg-skin-hue/50 [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]'>
+        </div>
+        <div
+          class='absolute -inset-y-8 left-0 w-px bg-skin-hue/50 [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]'>
+        </div>
+        <div
+          class='absolute -inset-x-8 bottom-0 h-px bg-skin-hue/50 [mask-image:linear-gradient(to_left,transparent,white_4rem,white_calc(100%-4rem),transparent)]'>
+        </div>
+        <div
+          class='absolute -inset-x-8 top-0 h-px bg-skin-hue/50 [mask-image:linear-gradient(to_left,transparent,white_4rem,white_calc(100%-4rem),transparent)]'>
+        </div>
+      </div>
+    </figure>
+  </div>
+</Section>
+
+<style>
+  .info {
+    @apply flex flex-col gap-1 pr-8 print:gap-0 print:pr-0;
+  }
+
+  h1 {
+    @apply text-4xl font-bold print:text-3xl;
+  }
+
+  h2 {
+    @apply text-balance text-base text-skin-muted print:text-lg;
+  }
+
+  img {
+    @apply aspect-square w-32 rounded-2xl bg-cover;
+  }
+
+  span {
+    @apply flex items-center gap-1 text-xs text-skin-hue;
+  }
+
+  footer {
+    @apply mt-2 flex gap-1 text-sm;
+  }
+
+  footer a,
+  footer button {
+    @apply inline-flex size-8 items-center justify-center rounded-md p-1 text-skin-hue transition-all duration-500 ease-linear hover:bg-skin-button-accent hover:text-skin-inverted;
+  }
+
+  @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      @apply pr-0 md:items-center md:justify-center;
+    }
+
+    figure {
+      @apply flex md:items-center md:justify-center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      @apply md:mx-auto;
+    }
+  }
+</style>
+
+<script>
+  const select = document.getElementById('themeSwitch') as HTMLSelectElement
+  const theme = localStorage.getItem('theme')
+  const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
+    ? 'dark'
+    : 'light'
+
+  if (theme !== null) {
+    select.value = theme
+  } else {
+    select.value = systemTheme
+  }
+
+  function updateTheme(value: string) {
+    const theme = value === 'system' ? systemTheme : value
+    document.documentElement.classList.remove('light', 'dark')
+    document.documentElement.classList.add(theme)
+    localStorage.setItem('theme', value)
+  }
+
+  updateTheme(select.value)
+
+  select.addEventListener('change', (event: Event) => {
+    const select = event.target as HTMLSelectElement
+    updateTheme(select.value)
+  })
+
+  // Deshabilitar modo oscuro al imprimir
+  window.addEventListener('beforeprint', () => {
+    document.documentElement.classList.remove('dark')
+  })
+
+  // Restaurar el modo oscuro después de imprimir
+  window.addEventListener('afterprint', () => {
+    if (
+      select.value === 'dark' ||
+      (select.value === 'system' && systemTheme === 'dark')
+    ) {
+      document.documentElement.classList.add('dark')
+    }
+  })
+</script>

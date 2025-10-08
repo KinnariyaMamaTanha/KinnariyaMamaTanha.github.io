@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy:vercel": "vercel deploy",
+    "deploy:cloudflare": "astro build && wrangler pages deploy ./dist"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/tailwind": "^5.1.1",
+    "@astrojs/vercel": "^7.8.1",
+    "@fancyapps/ui": "^5.0.36",
+    "@iconify-json/mdi": "^1.2.0",
+    "@iconify-json/ri": "^1.2.0",
+    "@iconify-json/simple-icons": "^1.2.5",
+    "@playform/compress": "^0.1.1",
+    "astro": "4.15.11",
+    "astro-icon": "^1.1.1",
+    "hotkeypad": "0.1.1",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "rimraf": "^6.0.1",
+    "wrangler": "^3.80.0"
+  }
+}
