@@ -41,7 +41,10 @@
         "url": "https://www.zhihu.com/people/Kinnariya"
       }
     ],
-    "beian": {}
+    "beian": {
+      "mint": "",
+      "police": ""
+    }
   },
   "images": {
     "intro": "",
@@ -361,7 +364,7 @@
       "name": "aiTour",
       "image": null,
       "description": "An open-source reference in self-learning of artificial intelligence.",
-      "highlights":[
+      "highlights": [
         "🌐 Features a wide range of resources, including open-source classes, tutorials, articles, and projects.",
         "🤖 Encourages community contributions and collaboration in the field of AI."
       ],
