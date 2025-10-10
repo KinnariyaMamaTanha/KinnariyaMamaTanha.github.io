@@ -2,248 +2,234 @@
   "analyticsCode": "",
   "pageLayout": "two-column",
   "basics": {
-    "name": "MiraHikari",
-    "label": "Senior Full Stack Developer",
+    "name": "Jingyu Zhou",
+    "label": "Undergraduate Student @ SJTU",
     "image": "/avatar.png",
-    "email": "mirahikari@gcxstudio.cn",
-    "url": "https://www.gcxstudio.cn",
-    "summary": "Born in 2010, I primarily work with TypeScript and JavaScript for full-stack development, and enjoy working with various technologies.",
+    "email": "jy_zhou@sjtu.edu.cn",
+    "url": "",
+    "summary": "I'm a Junior student at SJTU, majoring in Artificial Intelligence. I have a strong interest in Machine Learning, Deep Learning and especially RLVR of LLM. Now I'm a research intern at DAIR, focusing on improving the efficiency and performance of (multimodal) LLMs.",
     "theme": "red",
     "location": {
-      "address": "Nanchang",
-      "city": "Jiangxi Province",
+      "address": "Minhang District",
+      "city": "Shanghai",
       "countryCode": "CN",
       "region": "China"
     },
     "profiles": [
       {
-        "network": "Bilibili",
-        "icon": "ri:bilibili-line",
-        "username": "MiraHikari",
-        "url": "https://space.bilibili.com/480025691"
-      },
-      {
         "network": "QQ",
         "icon": "ri:qq-fill",
-        "username": "Gong_cx",
-        "url": "https://admin.qidian.qq.com/static_proxy/b2b-qq/wpa-link/index.html#/person?uin=3175992523"
+        "username": "Kinnari",
+        "url": "/qq.jpg"
       },
       {
         "network": "GitHub",
         "icon": "mdi:github",
-        "username": "MiraHikari",
-        "url": "https://github.com/MiraHikari"
+        "username": "KinnariyaMamaTanha",
+        "url": "https://github.com/KinnariyaMamaTanha"
+      },
+      {
+        "network": "WeChat",
+        "icon": "mdi:wechat",
+        "username": "Kinnari",
+        "url": "/wechat.jpg"
+      },
+      {
+        "network": "ZhiHu",
+        "icon": "ri:zhihu-fill",
+        "username": "Hakurei Reimu",
+        "url": "https://www.zhihu.com/people/Kinnariya"
       }
     ],
-    "beian": {
-      "mint": "赣ICP备2021005460号-1",
-      "police": "赣公网安备 36010302000349号"
-    }
+    "beian": {}
   },
   "images": {
-    "intro": "Photography is the art of light, and images are the contours of memory.",
+    "intro": "",
     "list": [
       {
-        "image": "https://i0.hdslb.com/bfs/article/6720a7355fd11b9666e2716cadf04e45480025691.jpg@90q_1e_1c.webp",
-        "alt": "Sunset in Nanchang",
-        "desc": "Shot on a sunny day in Nanchang. 2024.10.05"
+        "image": "/gallery/Cartethyia1.png",
+        "alt": "",
+        "desc": ""
       },
       {
-        "image": "https://i0.hdslb.com/bfs/article/82f680f56532d942f74d86801abf49ea480025691.jpg@90q_1e_1c.webp",
-        "alt": "My Cat",
-        "desc": "A Ragdoll cat who stayed for a year. She's a girl."
+        "image": "/gallery/Jinhsi.png",
+        "alt": "",
+        "desc": ""
       },
       {
-        "image": "https://i0.hdslb.com/bfs/article/14e6ae3c368b0eddeeb2b5c338239486480025691.jpg@90q_1e_1c.webp",
-        "alt": "Emoji",
-        "desc": "True, dude"
+        "image": "/gallery/Phrolova1.png",
+        "alt": "",
+        "desc": ""
       },
       {
-        "image": "https://i0.hdslb.com/bfs/article/fe1737e9d7b6c2b21eedaf60b6dc9f86480025691.jpg@90q_1e_1c.webp",
-        "alt": "Cat Kernel Crashed",
-        "desc": "Cat Kernel Crashed"
+        "image": "/gallery/Luno.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "image": "/gallery/Cartethyia2.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "image": "/gallery/ShoreKeeper.jpg",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "image": "/gallery/Phrolova2.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "image": "/gallery/Cartethyia3.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "image": "/gallery/Ciaccona.png",
+        "alt": "",
+        "desc": ""
+      },
+      {
+        "image": "/gallery/Pheobe.jpg",
+        "alt": "",
+        "desc": ""
       }
     ]
   },
   "education": [
     {
-      "institution": "Nanchang No.27 Middle School",
-      "url": "",
-      "area": "Regular Student",
+      "institution": "Zhiyuan Honor Program (SJTU)",
+      "url": "https://en.zhiyuan.sjtu.edu.cn/en",
+      "area": "Undergraduate",
       "studyType": "Full-time student",
-      "startDate": "2021-9-01",
+      "startDate": "2023-9-01",
+      "endDate": null
+    },
+    {
+      "institution": "Shanghai Jiao Tong University",
+      "url": "https://en.sjtu.edu.cn/",
+      "area": "Undergraduate",
+      "studyType": "Full-time student",
+      "startDate": "2023-9-01",
       "endDate": null
     }
   ],
   "certificates": [
     {
-      "name": "Success has lived a day in the world.",
-      "date": "2010-04-14",
+      "name": "Merit Scholarship, B level, SJTU",
+      "date": "2024-11",
       "url": "",
-      "issuer": "Myself"
+      "issuer": "Shanghai Jiao Tong University"
     },
     {
-      "name": "TCCP - Senior Cloud Architecture Engineer",
-      "date": "2023-05-01",
+      "name": "2024 Zhiyuan Honors Scholarship, SJTU",
+      "date": "2024-11",
       "url": "",
-      "issuer": "Tencent Cloud"
+      "issuer": "Shanghai Jiao Tong University"
+    },
+    {
+      "name": "2024 Shanghai Scholarship",
+      "date": "2024-11",
+      "url": "/shjxj2024.jpg",
+      "issuer": "Shanghai Municipal Education Commission"
+    },
+    {
+      "name": "First Prize of the 15th Chinese Mathematics Competitions",
+      "date": "2024-03-12",
+      "url": "/15th_national_math_competition.png",
+      "issuer": "Chinese Mathematical Society"
+    },
+    {
+      "name": "First Prize of the 15th Shanghai Mathematics Competitions",
+      "date": "2024-03-12",
+      "url": "/15th_shanghai_math_competition.png",
+      "issuer": "Shanghai Mathematical Society"
+    },
+    {
+      "name": "2023 Zhiyuan Honors Scholarship, SJTU",
+      "date": "2023-12-23",
+      "url": "zhiyuan_honor2023",
+      "issuer": "Shanghai Jiao Tong University"
     }
   ],
   "work": [
     {
-      "name": "Sgguo Development Team",
-      "position": "Full-stack Developer",
+      "name": "DAIR & IAAR",
+      "position": "Research Intern",
       "location_type": "Remote",
       "location": "CN",
-      "url": "https://github.com/Sgguo-Development-Team",
-      "startDate": "2022-06-01",
+      "url": "",
+      "startDate": "2025-05-23",
       "endDate": null,
-      "summary": "Developing high-availability full-stack projects.",
-      "highlights": [
-        "Enhanced internal workflow efficiency by 30%."
-      ],
+      "summary": "Propose a novel RLVR algorithm.",
+      "highlights": [],
       "responsibilities": [
-        "Developed and maintained backend services using Node.js and Golang."
+        "Code implementation, experiments and paper writing."
       ],
       "achievements": [
-        "Implemented a cloud drive and verification code system."
+        "Unified various RLVR methods based on a weighting insight.",
+        "Proposed a novel algorithm, DARO, which outperforms several baselines, including GRPO, DAPO, Dr.GRPO and Lite PPO, in terms of both efficiency and final performance."
       ],
       "skills": {
-        "PHP": "simple-icons:php",
-        "Node": "ri:nodejs-line",
-        "Golang": "simple-icons:go",
-        "Next.js": "ri:nextjs-fill",
-        "React": "mdi:react",
-        "SQL": "simple-icons:mysql",
-        "Git": "mdi:git",
-        "GitHub": "mdi:github",
-        "NestJS": "simple-icons:nestjs",
-        "Vue": "mdi:vuejs"
-      }
+        "Python": "simple-icons:python",
+        "Reinforcement Learning": "",
+        "LLM": ""
+      },
+      "links": [
+        {
+          "label": "DAIR",
+          "url": "http://pkudair.site/"
+        },
+        {
+          "label": "IAAR",
+          "url": "https://www.iaar.ac.cn/"
+        },
+        {
+          "label": "GitHub Repo (Coming Soon)",
+          "url": ""
+        },
+        {
+          "label": "ArXiv (Coming Soon)",
+          "url": ""
+        }
+      ]
     },
     {
-      "name": "Riddle Town Team",
-      "position": "Full-stack Developer",
-      "location_type": "Remote",
+      "name": "XLANCE",
+      "position": "Research Intern",
+      "location_type": "On-Site",
       "location": "CN",
-      "url": "https://rth2.gcxstudio.cn",
-      "startDate": "2023-01-01",
-      "endDate": "2024-02-11",
-      "summary": "Led page design and account systems.",
-      "highlights": [
-        "Completed 95% of project content."
+      "url": "https://x-lance.github.io/",
+      "startDate": "2024-03-29",
+      "endDate": "2024-09-03",
+      "summary": "Participate in the preparation of the tutorial report of NCMMSC 2024",
+      "links": [
+        {
+          "label": "tutorial report 《基于离散编码的语音合成》",
+          "url": "https://www.ncmmsc.org.cn/2024/jcbg/"
+        },
+        {
+          "label": "NCMMSC 2024",
+          "url": "https://www.ncmmsc.org.cn/2024/"
+        }
       ],
       "responsibilities": [
-        "Developed complete pages.",
-        "Integrated user-facing elements with server-side logic."
+        "Literature review and summary",
+        "Ablation experiments for some mainstream TTS methods"
       ],
       "achievements": [
-        "Ensured smooth project execution."
+        "Successfully helped with the tutorial report and its presentation at NCMMSC 2024."
       ],
       "skills": {
-        "HTML": "simple-icons:html5",
-        "CSS": "ri:css3-fill",
-        "JavaScript": "simple-icons:javascript",
-        "TypeScript": "simple-icons:typescript",
-        "Vite": "simple-icons:vite",
-        "Node": "ri:nodejs-line",
-        "Docker": "mdi:docker",
-        "WordPress": "ri:wordpress-fill",
-        "Astro": "simple-icons:astro",
-        "SQL": "simple-icons:mysql",
-        "Tailwind": "mdi:tailwind",
-        "React": "mdi:react",
-        "GitHub": "mdi:github",
-        "Git": "mdi:git"
+        "Python": "simple-icons:python",
+        "Machine Learning": "",
+        "TTS": ""
       }
     }
   ],
   "skills": [
-    {
-      "name": "HTML",
-      "icon": "simple-icons:html5",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "icon": "ri:css3-fill",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "icon": "simple-icons:javascript",
-      "level": "Expert",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "icon": "mdi:tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "icon": "simple-icons:typescript",
-      "level": "Expert",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "icon": "ri:nodejs-line",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
-      "name": "SQL",
-      "icon": "simple-icons:mysql",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
-    },
-    {
-      "name": "MongoDB",
-      "icon": "simple-icons:mongodb",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "File",
-        "Data Storage",
-        "Backend"
-      ]
-    },
     {
       "name": "Git",
       "icon": "mdi:git",
@@ -266,162 +252,12 @@
       ]
     },
     {
-      "name": "Next.js",
-      "icon": "ri:nextjs-line",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "icon": "mdi:react",
-      "level": "Expert",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
-    },
-    {
-      "name": "Vue",
-      "icon": "mdi:vuejs",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
-    },
-    {
       "name": "Docker",
       "icon": "mdi:docker",
       "level": "Intermediate",
       "keywords": [
         "Virtual Environments",
         "Backend"
-      ]
-    },
-    {
-      "name": "NestJS",
-      "icon": "simple-icons:nestjs",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "IOC"
-      ]
-    },
-    {
-      "name": "Vite",
-      "icon": "simple-icons:vite",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Build Tool"
-      ]
-    },
-    {
-      "name": "WordPress",
-      "icon": "ri:wordpress-fill",
-      "level": "Intermediate",
-      "keywords": [
-        "PHP",
-        "Fullstack",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "Golang",
-      "icon": "simple-icons:go",
-      "level": "Beginner",
-      "keywords": [
-        "Backend",
-        "Cloud Service"
-      ]
-    },
-    {
-      "name": "Astro",
-      "icon": "simple-icons:astro",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "PHP",
-      "icon": "simple-icons:php",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "Nginx",
-      "icon": "simple-icons:nginx",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Web Server"
-      ]
-    },
-    {
-      "name": "Tauri",
-      "icon": "simple-icons:tauri",
-      "level": "Beginner",
-      "keywords": [
-        "Desktop App",
-        "Rust",
-        "Webview"
-      ]
-    },
-    {
-      "name": "Rust",
-      "icon": "simple-icons:rust",
-      "level": "Beginner",
-      "keywords": [
-        "Desktop App",
-        "Webview"
-      ]
-    },
-    {
-      "name": "Socket.IO",
-      "icon": "simple-icons:socketdotio",
-      "level": "Beginner",
-      "keywords": [
-        "Realtime",
-        "Websocket"
-      ]
-    },
-    {
-      "name": "Electron",
-      "icon": "simple-icons:electron",
-      "level": "Beginner",
-      "keywords": [
-        "Desktop App",
-        "Webview"
-      ]
-    },
-    {
-      "name": "Shell",
-      "icon": "simple-icons:shell",
-      "level": "Intermediate",
-      "keywords": [
-        "Scripting",
-        "Automation"
       ]
     },
     {
@@ -435,38 +271,50 @@
       ]
     },
     {
-      "name": "Vercel",
-      "icon": "simple-icons:vercel",
+      "name": "Python",
+      "icon": "simple-icons:python",
       "level": "Intermediate",
       "keywords": [
-        "Serverless",
-        "Static Site Hosting"
+        "Scripting",
+        "Automation",
+        "Data Analysis",
+        "Machine Learning"
       ]
     },
     {
-      "name": "Netlify",
-      "icon": "simple-icons:netlify",
+      "name": "LaTeX",
+      "icon": "simple-icons:latex",
       "level": "Intermediate",
       "keywords": [
-        "Serverless",
-        "Static Site Hosting"
+        "Document Preparation",
+        "Academic Writing"
       ]
     },
     {
-      "name": "Tencent Cloud",
-      "icon": "simple-icons:tencentqq",
+      "name": "C",
+      "icon": "simple-icons:c",
       "level": "Intermediate",
       "keywords": [
-        "Cloud Service"
+        "Systems Programming",
+        "Performance"
       ]
     },
     {
-      "name": "Cloudflare Edge Functions",
-      "icon": "simple-icons:cloudflare",
-      "level": "Expert",
+      "name": "C++",
+      "icon": "simple-icons:cplusplus",
+      "level": "Intermediate",
       "keywords": [
-        "Serverless",
-        "Edge Computing"
+        "Systems Programming",
+        "Performance"
+      ]
+    },
+    {
+      "name": "CUDA",
+      "icon": "simple-icons:nvidia",
+      "level": "Beginner",
+      "keywords": [
+        "Parallel Computing",
+        "GPU Programming"
       ]
     }
   ],
@@ -497,38 +345,29 @@
   ],
   "projects": [
     {
-      "name": "Cloudflare Vmail",
-      "image": {
-        "url": "https://i0.hdslb.com/bfs/article/985e2caa8266dee4b9861ee6a341886d480025691.png@1e_1c.webp",
-        "position": "container",
-        "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
-      },
+      "name": "DARO: Difficulty-Aware Reweighting Policy Optimization",
+      "image": {},
       "isActive": true,
-      "description": "An open source temporary email tool, fully on Cloudflare. Inspired by oiov/vmail",
+      "description": "A novel RLVR algorithm that adaptively adjusts the weights of samples based on their difficulty levels, enhancing both learning efficiency and final performance.",
       "highlights": [
-        "🎯 Privacy-friendly, no registration required, out-of-the-box",
-        "✨ Support saving passwords and retrieving email addresses",
-        "😄 Support multiple domain name suffixes",
-        "🚀 100% open source, fully based on Cloudflare."
+        "✨ Unified various RLVR methods based on a weighting insight.",
+        "🏆 Outperforms several baselines, including GRPO, DAPO, Dr.GRPO and Lite PPO.",
+        "📈 Achieves better final performance on various benchmarks in all of our settings."
       ],
-      "url": "https://what-the-fuck.sbs",
-      "github": "https://github.com/MiraHikari/cloudflare-vmail"
+      "url": "Coming Soon",
+      "github": "Coming Soon"
     },
     {
-      "name": "Riddle Town Hunt 2",
-      "image": {
-        "url": "https://rth2-webstatic.gbclstudio.cn/wp-content/uploads/2024/02/1707656250-76b2b0d2c94824e89a2b8b2c7d1c6afe.png",
-        "position": "background"
-      },
-      "isActive": false,
-      "description": "Public decryption activity in the form of Puzzle Hunt.",
-      "highlights": [
-        "👌 More than 1000 people participated, system runs normally",
-        "😮‍ Use headless CMS: WordPress to storage and manage contents, dynamically render page",
-        "😊 Windows-like interface",
-        "💕 Based on Astro"
+      "name": "aiTour",
+      "image": null,
+      "description": "An open-source reference in self-learning of artificial intelligence.",
+      "highlights":[
+        "🌐 Features a wide range of resources, including open-source classes, tutorials, articles, and projects.",
+        "🤖 Encourages community contributions and collaboration in the field of AI."
       ],
-      "url": "https://rth2.gcxstudio.cn/"
+      "isActive": true,
+      "url": "https://aitour.site",
+      "github": "https://github.com/KinnariyaMamaTanha/aiTour"
     }
   ]
 }
