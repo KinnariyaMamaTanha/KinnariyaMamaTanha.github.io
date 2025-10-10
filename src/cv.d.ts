@@ -132,6 +132,13 @@ interface Projects {
   highlights: Highlight;
   url: string;
   github?: string;
+  image?: ProjectImage | null;
+}
+
+interface ProjectImage {
+  url: string;
+  dark?: string;
+  position?: "background" | "container";
 }
 
 interface Interests {

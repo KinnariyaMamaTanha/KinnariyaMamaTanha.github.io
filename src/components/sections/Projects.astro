@@ -2,18 +2,40 @@
 import Section from "../Section.astro";
 import { Icon } from "astro-icon/components";
 
-import { projects } from "@cv";
+import { projects as projectsData } from "@cv";
 import { Image } from "astro:assets";
+
+type ProjectImage = {
+  url?: string;
+  dark?: string;
+  position?: "background" | "container";
+};
+
+type Project = Omit<(typeof projectsData)[number], "image"> & {
+  image?: ProjectImage | null;
+};
+
+const projects = projectsData as Array<Project>;
 ---
 
 <Section className={Astro.props.className} title="Projects">
   <div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
     {
-      projects.map(
-        ({ url, description, highlights, name, isActive, github, image }) => {
-          const isBackgroundImage = image && image?.position === "background";
-          const isContainerImage = image && image?.position === "container";
-          return (
+      projects.map((project: Project) => {
+        const { url, description, highlights, name, isActive, github, image } =
+          project;
+          const imageUrl =
+            typeof image?.url === "string" && image.url.length > 0
+              ? image.url
+              : undefined;
+          const imageDark =
+            typeof image?.dark === "string" && image.dark.length > 0
+              ? image.dark
+              : undefined;
+          const imagePosition = image?.position;
+          const isBackgroundImage = !!imageUrl && imagePosition === "background";
+          const isContainerImage = !!imageUrl && imagePosition === "container";
+        return (
             <div
               role="contentinfo"
               class:list={[
@@ -21,18 +43,18 @@ import { Image } from "astro:assets";
               ]}
             >
               {isBackgroundImage && (
-                <a data-src={image.url} data-fancybox="projects">
+                <a data-src={imageUrl} data-fancybox="projects">
                   <div
                     class:list={[
                       "absolute inset-0 transform bg-cover bg-center bg-no-repeat opacity-30 blur-sm grayscale transition-all duration-300",
-                      image.dark ? "dark:hidden" : "",
+                      imageDark ? "dark:hidden" : "",
                     ]}
-                    style={{ backgroundImage: `url(${image.url})` }}
+                    style={{ backgroundImage: `url(${imageUrl})` }}
                   />
-                  {image.dark && (
+                  {imageDark && (
                     <div
                       class="absolute inset-0 hidden transform bg-cover bg-center bg-no-repeat opacity-30 blur-sm grayscale transition-all duration-300 dark:block"
-                      style={{ backgroundImage: `url(${image.dark})` }}
+                      style={{ backgroundImage: `url(${imageDark})` }}
                     />
                   )}
                 </a>
@@ -83,20 +105,20 @@ import { Image } from "astro:assets";
                 })}
               </ul>
               {isContainerImage && (
-                <a data-src={image.url} data-fancybox="projects">
+                <a data-src={imageUrl} data-fancybox="projects">
                   <Image
-                    src={image.url}
+                    src={imageUrl}
                     alt=""
                     width={800}
                     height={1080}
                     class:list={[
                       "mt-3 max-w-full rounded-lg",
-                      image.dark ? "dark:hidden" : "",
+                      imageDark ? "dark:hidden" : "",
                     ]}
                   />
-                  {image.dark && (
+                  {imageDark && (
                     <Image
-                      src={image.dark}
+                      src={imageDark}
                       alt=""
                       width={800}
                       height={1080}
@@ -112,8 +134,7 @@ import { Image } from "astro:assets";
               )}
             </div>
           );
-        },
-      )
+      })
     }
   </div>
 </Section>

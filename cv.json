@@ -349,7 +349,7 @@
   "projects": [
     {
       "name": "DARO: Difficulty-Aware Reweighting Policy Optimization",
-      "image": {},
+      "image": null,
       "isActive": true,
       "description": "A novel RLVR algorithm that adaptively adjusts the weights of samples based on their difficulty levels, enhancing both learning efficiency and final performance.",
       "highlights": [
