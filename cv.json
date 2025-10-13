@@ -190,12 +190,12 @@
           "url": "https://www.iaar.ac.cn/"
         },
         {
-          "label": "GitHub Repo (Coming Soon)",
+          "label": "GitHub (Coming Soon)",
           "url": ""
         },
         {
-          "label": "ArXiv (Coming Soon)",
-          "url": ""
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2510.09001"
         }
       ]
     },
@@ -357,7 +357,7 @@
         "🏆 Outperforms several baselines, including GRPO, DAPO, Dr.GRPO and Lite PPO.",
         "📈 Achieves better final performance on various benchmarks in all of our settings."
       ],
-      "url": "Coming Soon",
+      "url": "https://arxiv.org/abs/2510.09001",
       "github": "Coming Soon"
     },
     {
