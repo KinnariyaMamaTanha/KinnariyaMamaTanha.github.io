@@ -319,6 +319,12 @@
         "Parallel Computing",
         "GPU Programming"
       ]
+    },
+    {
+      "name": "Java",
+      "icon": "mdi:language-java",
+      "level": "Beginner",
+      "keywords": []
     }
   ],
   "languages": [
@@ -371,6 +377,19 @@
       "isActive": true,
       "url": "https://aitour.site",
       "github": "https://github.com/KinnariyaMamaTanha/aiTour"
+    },
+    {
+      "name": "Plox",
+      "image": null,
+      "description": "Python implementation of Crafting Interpreter, focusing on the tree-walk interpreter.",
+      "highlights": [
+        "🐍 A Python implementation of the Crafting Interpreters book by Bob Nystrom.",
+        "📚 Covers the tree-walk interpreter.",
+        "🛠️ Supports both script and REPL modes."
+      ],
+      "isActive": true,
+      "url": "https://github.com/KinnariyaMamaTanha/plox",
+      "github": "https://github.com/KinnariyaMamaTanha/plox"
     }
   ]
 }
