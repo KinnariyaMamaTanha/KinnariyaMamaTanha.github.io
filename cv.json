@@ -39,6 +39,12 @@
         "icon": "ri:zhihu-fill",
         "username": "Hakurei Reimu",
         "url": "https://www.zhihu.com/people/Kinnariya"
+      },
+      {
+        "network": "Blog",
+        "icon": "mdi:rss",
+        "username": "Kinnari",
+        "url": "https://kinnari-blog.vercel.app/"
       }
     ],
     "beian": {
